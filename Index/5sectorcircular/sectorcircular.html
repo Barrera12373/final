@@ -1,0 +1,71 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link href="../1triangulo/triangulo.css" rel="stylesheet" type="text/css" />
+    <a href="../index.html"><button><img src="../1triangulo/regresar.png" class="img-fluid" alt="..." /> </button> </a>
+    <link href="../Index/styles.css" rel="stylesheet" type="text/css">
+    <center><img src="../5sectorcircular/sectorcirculartitulo.png" class="img-fluid" alt="..." /></center>
+</head>
+
+<body>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <br />
+    <div class="container px-4 text-center">
+        <div class="row gx-5">
+            <div class="col">
+                <div class="p-3 border bg-light">Calculadora<br />
+                    <img src="../1triangulo/calculadora.png" class="img-fluid" alt="..." />
+                    <p>Insertar base(b)</p>
+                    <center>
+                        <div class="col-lg-9">
+                            <input type="number" id="base" class="form-control" placeholder="base(b)">
+                        </div>
+                    <p>Insertar altura(h)</p>
+                        <div class="col-lg-9">
+                            <input type="number" id="altura" class="form-control" placeholder="altura(h)">
+                        </div>
+                    <p>Insertar Lado A</p>
+                        <div class="col-lg-9">
+                            <input type="number" id="ladoa" class="form-control" placeholder="Lado A">
+                        </div>
+                    <p>Insertar Lado B</p>
+                        <div class="col-lg-9">
+                            <input type="number" id="ladob" class="form-control" placeholder="Lado B">
+                        </div>
+                    <p>Insertar Lado C</p>
+                        <div class="col-lg-9">
+                            <input type="number" id="ladoc" class="form-control" placeholder="Lado C">
+                        </div>  
+                        <br/>
+                    <button class="btn btn-primary btn-block" id="btndos">Calcular</button> 
+                    <br/>
+                    <p>Area</p>
+                        <div class="col-lg-9">
+                            <input type="text" id="area" class="form-control"  readonly="">
+                        </div>
+                    <p>Perimetro</p>
+                        <div class="col-lg-9">
+                            <input type="text" id="perimetro" class="form-control"  readonly="">
+                        </div>
+                </div>
+                </center>
+
+
+            </div>
+            <div class="col">
+                <div class="p-3 border bg-light">Formula
+                    <img src="../1triangulo/formula.png"class="img-fluid" alt="..." />
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3 border bg-light">Como Hacerlo
+                    <video src="../1triangulo/hacerlo.mp4" class="ratio ratio=4x3" alt="..."  controls></video>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
